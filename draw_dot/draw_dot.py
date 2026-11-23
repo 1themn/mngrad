@@ -1,4 +1,6 @@
 # brrowed from kerpathy's repo
+from nn.Value import Value 
+from nn.nn import MLP
 from graphviz import Digraph
 def trace(root):
     # builds a set of all nodes and edges in a graph

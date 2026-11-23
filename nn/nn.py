@@ -1,5 +1,5 @@
 import random
-import nn.Value as Value
+from nn.Value import Value
 class Neuron:
     def __init__(self, nin):
         self.w = [Value(random.uniform(-1,1)) for _ in range(nin)]
